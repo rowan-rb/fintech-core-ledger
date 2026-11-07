@@ -1,0 +1,2 @@
+[console_scripts]
+init-db = fintech_ledger.scripts.init_db:main

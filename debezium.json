@@ -1,0 +1,16 @@
+{
+  "name": "outbox-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "database.hostname": "postgres",
+    "database.port": "5432",
+    "database.user": "fintech",
+    "database.password": "fintech",
+    "database.dbname": "fintech",
+    "topic.prefix": "fintech",
+    "table.include.list": "public.outbox",
+    "plugin.name": "pgoutput",
+    "transforms": "unwrap",
+    "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState"
+  }
+}

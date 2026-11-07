@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: fintech_ledger
+Version: 0.1.0
+Summary: Core ledger infrastructure (double-entry bookkeeping)
+Requires-Python: >=3.12
+Requires-Dist: fastapi>=0.110.0
+Requires-Dist: pydantic-settings>=2.2.0
+Requires-Dist: sqlalchemy>=2.0.0
+Requires-Dist: psycopg2-binary>=2.9.0
+Requires-Dist: pika>=1.3.0
